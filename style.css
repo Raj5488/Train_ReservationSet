@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(79, 13, 247);
+    text-align: center;
+}
+
+.coach {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background-color: red;
+    cursor: default;
+}
+
+.seat.selected {
+    background-color: green;
+}
